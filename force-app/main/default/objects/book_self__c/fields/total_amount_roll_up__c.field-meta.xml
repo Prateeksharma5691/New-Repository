@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>total_amount_roll_up__c</fullName>
+    <externalId>false</externalId>
+    <label>total amount (roll up)</label>
+    <summarizedField>Book__c.final_price__c</summarizedField>
+    <summaryForeignKey>Book__c.book_self__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

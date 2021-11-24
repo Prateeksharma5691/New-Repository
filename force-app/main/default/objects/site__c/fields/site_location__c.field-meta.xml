@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>site_location__c</fullName>
+    <externalId>false</externalId>
+    <label>site location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>company_name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Khalwa</fullName>
+                <default>false</default>
+                <label>Khalwa</label>
+            </value>
+            <value>
+                <fullName>Dharampuri</fullName>
+                <default>false</default>
+                <label>Dharampuri</label>
+            </value>
+            <value>
+                <fullName>Gandhi nagar</fullName>
+                <default>false</default>
+                <label>Gandhi nagar</label>
+            </value>
+            <value>
+                <fullName>Super corridor</fullName>
+                <default>false</default>
+                <label>Super corridor</label>
+            </value>
+            <value>
+                <fullName>Rau bypass &amp; piplihana</fullName>
+                <default>false</default>
+                <label>Rau bypass &amp; piplihana</label>
+            </value>
+            <value>
+                <fullName>Dewas</fullName>
+                <default>false</default>
+                <label>Dewas</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>RSK construction</controllingFieldValue>
+            <valueName>Khalwa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Shri ji</controllingFieldValue>
+            <valueName>Dharampuri</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>P.D. agrawal</controllingFieldValue>
+            <valueName>Gandhi nagar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>P.D. agrawal</controllingFieldValue>
+            <valueName>Super corridor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D.R. agrawal</controllingFieldValue>
+            <valueName>Rau bypass &amp; piplihana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>D.R. agrawal</controllingFieldValue>
+            <valueName>Dewas</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

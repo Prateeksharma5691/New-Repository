@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>company_name__c</fullName>
+    <externalId>false</externalId>
+    <label>company name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RSK construction</fullName>
+                <default>false</default>
+                <label>RSK construction</label>
+            </value>
+            <value>
+                <fullName>Shri ji</fullName>
+                <default>false</default>
+                <label>Shri ji</label>
+            </value>
+            <value>
+                <fullName>P.D. agrawal</fullName>
+                <default>false</default>
+                <label>P.D. agrawal</label>
+            </value>
+            <value>
+                <fullName>D.R. agrawal</fullName>
+                <default>false</default>
+                <label>D.R. agrawal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
